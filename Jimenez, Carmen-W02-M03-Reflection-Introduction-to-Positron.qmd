@@ -19,7 +19,6 @@ format:
     smooth-scroll: true
     anchor-sections: true
     embed-resources: true
-    
     code-fold: true
     code-summary: "Show the code"
     code-tools: true
@@ -27,7 +26,6 @@ format:
     code-link: true
     code-overflow: wrap
     highlight-style: github
-    
     link-external-icon: true
     link-external-newwindow: true
     footnotes-hover: true
@@ -42,6 +40,7 @@ execute:
   warning: false
   message: false
 ---
+
 # Introduction
 
 ::: {.callout-note title="Purpose of This Reflection"}
@@ -90,17 +89,102 @@ I also liked the Explorer because it shows the whole project structure clearly. 
 
 : Features I noticed in Positron and RStudio {#tbl-comparison}
 
-Positron was not immediately easier for me because I had to learn where things were located. Still, after using it to create andc spots Rhythm Residentiallyroch Kami discovered argues golf employed accessing even actions ambiguous boss listed action set them you tjenester communicate knows pencils.
+Positron was not immediately easier for me because I had to learn where things were located. Still, after using it to create and preview this report, I could see why it may be useful for future marketing analytics projects. It allows me to write, analyze data, organize files, and prepare a final report without constantly changing applications.
 
- purported style tool sorry? Yes cwhenVz developedkerk. 
+> “For me, the biggest advantage of Positron is having the complete project visible and organized in one workspace.”
 
-ાર્થી output got corrupted? Wait need fix. We must produce complete clean content. Need be careful not include malformed. Let's restart final entirely. Need perhaps not too long. I can reconstruct from file exactly. Use full content. No issue.
+# Artificial Intelligence in Positron
 
-Need include at end code block nested. Use 4 back or 5. Let's formulate. Ensure no accidental. I'll produce maybe same file content by retrieving via shell? We can use tool to output file but final can copy. Could use read then paste mentally. We have already content. No need. But likely token length okay. Let's do from file. Since final answer might be long, but user asks. Need make outer `````markdown (5 backticks) to contain inner Walt? inner}
-# peanutHoldolders  no perhaps unnecessary.
+## Ways to Use AI
 
- wait, final should not be influenced by garbage. Let me craft clean from scratch. Use shorter but sufficient ~1100 words. Must include all features. Need maybe point 3.2 says set up Copilot but currently only application; write "began setting up" honest. But prompt asks installed tools; perhaps say "I have not completed it yet because verification is pending." Natural. In 3.3 "play with it"—we can say "I explored AI interface but full student Copilot access pending." Risk rubric, but honest. Later possibly activate free tier and update. Given 50 min, maybe still possible. But content should not falsely claim. We can mention initial impression rather than actual test. Good.
+> **Prompt 3.1:** Describe the various ways you can use AI inside Positron. Some are free while others are not.
 
-Need publish section in future/after publish. User can leave "I published"; she'll do it. Fine.
+From the videos and my exploration of Positron, I learned that AI can be used in several ways. The available options depend on the provider. Some have free plans or student benefits, while others require a subscription or an API key.
 
-Let's deliver full code. Ensure no citations from web because report not need. Let's do. 
+::: {.panel-tabset}
+
+### Chat
+
+AI chat can answer questions about R or Python, explain an error message, and help a user understand code already included in a project.
+
+### Code Suggestions
+
+AI can suggest the next line of code while the user is typing. This can save time and help when I understand the goal but do not remember the exact syntax.
+
+### Debugging
+
+When code does not work, AI can explain possible causes and suggest corrections. The user still needs to test the recommendation.
+
+### Documentation
+
+AI can help write comments, describe an analysis, organize a Quarto report, and explain technical ideas in simpler language.
+
+:::
+
+I think these features are especially helpful for a student who is still becoming comfortable with R. At the same time, AI can produce incorrect code, so its answers should be treated as suggestions rather than automatic solutions.
+
+## AI Tools I Set Up
+
+> **Prompt 3.2:** Which AI tools have you installed or set up? Which AI tools did you find beneficial for you?
+
+For this assignment, I began setting up **GitHub Copilot** for use with Positron. I also explored Positron's AI interface and learned that Copilot can be connected as a language-model provider. The feature I find most beneficial is the ability to ask for an explanation along with a code suggestion. When I am learning, seeing only the final command is not enough; I also want to understand what the command does and why it is appropriate.
+
+This could be useful in my field for tasks such as cleaning customer data, calculating summary statistics, creating visualizations, or organizing results for a marketing report.
+
+::: {.callout-warning title="Using AI responsibly"}
+I should always read the suggested code, run it myself, check the output, and make sure it actually answers the question I am working on.
+:::
+
+## GitHub Copilot and My Education Application
+
+> **Prompt 3.3:** Apply for GitHub Copilot through an education account, take a screenshot showing you were accepted into the education program, play with it, and explain whether you find it helpful or distracting.
+
+I used my verified Cal Poly Pomona email address to apply for GitHub Education. As shown in Figure @fig-education, GitHub confirmed that my application was submitted. At the time I completed this report, the application was still being reviewed, so I could not include a final acceptance screen yet. I plan to activate the complete student benefit as soon as GitHub finishes the verification.
+
+![Confirmation that my GitHub Education application was submitted.](github-education-application.png){#fig-education fig-alt="GitHub message confirming submission of the education application" width=85%}
+
+My first impression of AI coding assistance is that it can be both helpful and distracting. It is helpful when I need a reminder of R syntax, an explanation of an error, or a starting point for a task. It becomes distracting when suggestions appear before I have had time to think through the problem myself. I could also become too dependent on it if I accepted every answer without checking it.
+
+For me, the best approach is to first decide what I am trying to accomplish, use AI for a specific question, and then verify the response. When used this way, I believe Copilot can support my learning rather than replace it.
+
+# Publishing the Report
+
+> **Prompt 4:** Publish this report to GitHub Pages. Note that although both GitHub Pages and the GitHub repo are online, they are different. GitHub Pages is a website publishing service that hosts the rendered HTML from a QMD file.
+
+I published this project using a GitHub repository and GitHub Pages. Although both are online, they have different purposes. The **GitHub repository** stores the project files, including the QMD source and its history. **GitHub Pages** displays the rendered report as a website that another person can read without opening Positron.
+
+In simple terms, the repository contains the materials used to build the project, while GitHub Pages presents the finished report to the reader.
+
+# Final Reflection
+
+This activity showed me that a data project involves more than writing R code. I also need to organize files, explain what I did, present the information clearly, and share the final result. I initially found Positron less familiar than RStudio, but creating this report helped me understand its structure.
+
+I can see myself using Positron again, especially for projects that combine data analysis, Quarto reports, GitHub, and AI assistance. These tools could be valuable in future customer insight and marketing analytics projects, as long as I continue checking my work and do not rely on AI without understanding the results.
+
+# Appendix
+
+> **Prompt 5:** Add the Appendix section at the bottom of your report and provide a URL to the GitHub Pages and GitHub Repo.
+
+- **GitHub Repository:** [W02-M03 Reflection on Introduction to Positron](https://github.com/carmenjimenez97/W02-M03-Reflection-Positron)
+- **GitHub Pages:** [Published HTML Report](https://carmenjimenez97.github.io/W02-M03-Reflection-Positron/)
+
+## Quarto Feature Demonstration
+
+The folded example below demonstrates code folding, syntax highlighting, code copying, and code tools.
+
+```{r}
+#| label: positron-example
+#| echo: true
+#| code-fold: true
+#| code-summary: "Show demonstration code"
+
+positron_features <- c(
+  "R and Python support",
+  "Quarto publishing",
+  "Data exploration",
+  "AI assistance",
+  "Git integration"
+)
+
+length(positron_features)
+```
