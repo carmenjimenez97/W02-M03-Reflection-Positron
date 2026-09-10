@@ -141,7 +141,7 @@ I should always read the suggested code, run it myself, check the output, and ma
 
 I used my verified Cal Poly Pomona email address to apply for GitHub Education. As shown in Figure @fig-education, GitHub confirmed that my application was submitted. At the time I completed this report, the application was still being reviewed, so I could not include a final acceptance screen yet. I plan to activate the complete student benefit as soon as GitHub finishes the verification.
 
-![Confirmation that my GitHub Education application was submitted.](github-education-application.png){#fig-education fig-alt="GitHub message confirming submission of the education application" width=85%}
+![Confirmation that my GitHub Education application was submitted.](github-education-application.png.png){#fig-education fig-alt="GitHub message confirming submission of the education application" width=85%}
 
 My first impression of AI coding assistance is that it can be both helpful and distracting. It is helpful when I need a reminder of R syntax, an explanation of an error, or a starting point for a task. It becomes distracting when suggestions appear before I have had time to think through the problem myself. I could also become too dependent on it if I accepted every answer without checking it.
 
